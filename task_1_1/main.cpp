@@ -8,8 +8,8 @@ int main() {
     cin >> N;
     for (int i = 5; i <= N; i++) {
         int num = i;
-        while (i % 5 == 0) {
-            i /= 5;
+        while (num % 5 == 0) {
+            num /= 5;
             acc += 1;
         }
     }
